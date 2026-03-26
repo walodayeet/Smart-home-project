@@ -1,0 +1,38 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1774537815.697156    6712 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1774537825.154744    6712 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+26-03-26 22:10:38 - Directory C:\Users\USER\.deepface has been created
+26-03-26 22:10:38 - Directory C:\Users\USER\.deepface\weights has been created
+============================================================
+DeepFace Face Recognition API
+============================================================
+Model: Facenet512
+Detector: opencv
+Data Directory: D:\tmp\uni\Smart-home-project\smart-home-project\face-recognition\src\data
+============================================================
+
+Endpoints:
+  GET  /health      - Health check
+  POST /recognize   - Recognize face
+  POST /register    - Register face
+  GET  /faces       - List faces
+  DELETE /faces/<id> - Delete face
+
+Server: http://0.0.0.0:5000
+============================================================
+ * Serving Flask app 'api_deepface'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.171:5000
+Press CTRL+C to quit
+127.0.0.1 - - [26/Mar/2026 22:10:39] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [26/Mar/2026 22:17:29] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [26/Mar/2026 22:17:33] "POST /register HTTP/1.1" 400 -
+127.0.0.1 - - [26/Mar/2026 22:17:36] "GET /faces HTTP/1.1" 200 -
+127.0.0.1 - - [26/Mar/2026 22:17:38] "POST /recognize HTTP/1.1" 200 -
+127.0.0.1 - - [26/Mar/2026 22:31:19] "GET /health HTTP/1.1" 200 -
