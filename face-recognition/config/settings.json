@@ -1,0 +1,9 @@
+{
+  "tolerance": 0.6,
+  "model": "hog",
+  "upsample": 1,
+  "data_dir": "data",
+  "camera_index": 0,
+  "frame_resize": 0.5,
+  "recognition_interval": 5
+}
