@@ -35,3 +35,7 @@ Server: http://0.0.0.0:5000
 2026-03-26 22:38:12,139 - __main__ - INFO - Registering new face: minh
 2026-03-26 22:38:12,255 - __main__ - INFO - Successfully registered minh (ID: minh_1)
 2026-03-26 22:38:12,255 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:38:12] "POST /register HTTP/1.1" 200 -
+2026-03-27 22:13:27,934 - werkzeug - INFO - 192.168.9.171 - - [27/Mar/2026 22:13:27] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-27 22:13:31,369 - werkzeug - INFO - 192.168.9.171 - - [27/Mar/2026 22:13:31] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-27 22:13:31,378 - werkzeug - INFO - 192.168.9.171 - - [27/Mar/2026 22:13:31] "[33mGET /loginMsg.js HTTP/1.1[0m" 404 -
+2026-03-27 22:13:31,386 - werkzeug - INFO - 192.168.9.171 - - [27/Mar/2026 22:13:31] "[33mGET /cgi/get.cgi?cmd=home_login HTTP/1.1[0m" 404 -
