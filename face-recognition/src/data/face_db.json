@@ -3,5 +3,10 @@
     "name": "minh",
     "image_path": "data\\images\\minh_1.jpg",
     "person_id": "minh_1"
+  },
+  "yoo_2": {
+    "name": "yoo",
+    "image_path": "data\\images\\yoo_2.jpg",
+    "person_id": "yoo_2"
   }
 }
